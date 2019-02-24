@@ -2,8 +2,7 @@
 
 def loop_iterator(number_of_times)
   counter = 1
-  # This and all the other methods take an argument of an integer 	  loop do
-  # The integer is the number of times the loops should puts out the phrase	    if counter > number_of_times
+  
       break
     end
     phrase = "Welcome to Flatiron School's Web Development Course!"
@@ -30,8 +29,7 @@ def while_iterator(number_of_times)
 end
 
 def until_iterator(number_of_times)
-  # code your solution here using the "until" keyword
-  # hint: use a counter to tell the until loop when to stop!
+  
   counter = 0
 
    until counter == number_of_times do
